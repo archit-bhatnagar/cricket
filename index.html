@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crick-It</title>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href = "css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+          <div class="container-fluid">
+            <h1 class="text-center" id="title">CRICK-IT</h1>
+          </div>
+        </header>
+        <div class = "main-body">
+          <div class="container">
+            <section id="name-bar">
+              <section class="col-sm-3" id="home">
+                <a href="#home">
+                  <div class="text-center" id="home-title"> Home </div>
+                </a>
+              </section>
+              <section class="col-sm-3 " id="teams">
+                  <a href="teams.html">
+                    <div class="text-center" id="teams-title"> Teams </div>
+                  </a>
+              </section>
+              <section class="col-sm-3" id="terms">
+                <a>
+                  <div class="text-center" id="terms-title"> Terms </div>
+                </a>
+              </section>
+              <section class="col-sm-3" id="aboutus">
+                <a>
+                  <div class="text-center" id="aboutus-title"> About Us </div>
+                </a>
+              </section>
+            </section>
+            <section>  
+              <nav id="navigation-bar" class="navbar navbar-default">
+                <div class="container">
+                  <div class="navbar-header">
+                    <div id="brand" class="navbar-brand"> Contents </div>
+                    <div>
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <div id="collapsable-nav" class="collapse navbar-collapse text-center">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                         <li> <a href="#home"> Home </a> </li>
+                         <li> <a href="teams.html"> Teams </a> </li>
+                         <li> <a href="terms.html"> Terms </a> </li>
+                         <li> <a href="aboutus.html"> About Us </a> </li>
+                       </ul>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </section>
+            <div class="text-center" id="player-rankings">Player Rankings</div>
+            <div class="text-center" id="batsman">BATSMAN</div>
+            <section id="test-cricket" class="col-md-4 col-sm-6">
+              <div id="test-block">
+                <div>
+                  <p class="text-center" id="test-title">TEST</p>
+                </div>
+                <div id="image-holder"><img src="images/test.jpg" width="100%"></div>
+                <!-- <canvas id="testCanvas"></canvas> -->
+                <ol id="test-ranking">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/271" target="_blank">
+                    <li>Steve Smith</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/164" target="_blank">
+                    <li>Virat Kohli</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/4029" target="_blank">
+                    <li>Marnus Lambuschagne</li>
+                  </a>
+                </ol>
+                <div id="test-button">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/test" target="_blank">
+                    <button class="icc-rankings-button">More</button>
+                  </a>
+                </div>
+                
+              </div>
+            </section>
+            <section id="odi" class="col-md-4 col-sm-6">
+              <div id="odi-block">
+                <div>
+                  <p class="text-center" id="odi-title">ODI</p>
+                </div>
+                <div id="image-holder"><img src="images/odi.jpg" width="100%"></div>
+                <!-- <canvas id="testCanvas"></canvas> -->
+                <ol id="test-ranking">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/164" target="_blank">
+                    <li>Virat Kohli</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/107" target="_blank">
+                    <li>Rohit Sharma</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/2759" target="_blank">
+                    <li>Babar Azam</li>
+                  </a>
+                </ol>
+                <div id="test-button">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/odi" target="_blank">
+                    <button class="icc-rankings-button">More</button>
+                  </a>
+                </div>
+                
+              </div>
+            </section>
+            <section id="t20" class="col-md-4 hidden-sm">
+              <div id="t20-block">
+                <div>
+                  <p class="text-center" id="t20-title">T20</p>
+                </div>
+                <div id="image-holder"><img src="images/t20.jpg" width="100%"></div>
+                <!-- <canvas id="testCanvas"></canvas> -->
+                <ol id="t20-ranking">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/2759" target="_blank">
+                    <li>Babar Azam</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/1125" target="_blank">
+                    <li>Lokesh Rahul</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/167" target="_blank">
+                    <li>Aaron Finch</li>
+                  </a>
+                </ol>
+                <div id="test-button">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/t20i" target="_blank">
+                    <button class="icc-rankings-button">More</button>
+                  </a>
+                </div>
+                
+              </div>
+            </section>
+          </div>
+          <!-- only for tab view -->
+          <div class="container hidden-xs hidden-md hidden-lg">
+            <section id="t20" class="col-md-4">
+              <div id="t20-block-tab">
+                <div>
+                  <p class="text-center" id="t20-title">T20</p>
+                </div>
+                <div id="image-holder"><img src="images/t20.jpg" width="100%"></div>
+                <!-- <canvas id="testCanvas"></canvas> -->
+                <ol id="t20-ranking">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/2759" target="_blank">
+                    <li>Babar Azam</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/1125" target="_blank">
+                    <li>Lokesh Rahul</li>
+                  </a>
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/167" target="_blank">
+                    <li>Aaron Finch</li>
+                  </a>
+                </ol>
+                <div id="test-button">
+                  <a href="https://www.icc-cricket.com/rankings/mens/player-rankings/t20i" target="_blank">
+                    <button class="icc-rankings-button">More</button>
+                  </a>
+                </div>
+                
+              </div>
+            </section>
+          </div>
+        </div>
+          
+      <!-- jQuery (Bootstrap JS plugins depend on it) -->
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+    </body>
+  </html>
